@@ -1,6 +1,6 @@
 COMPILER = gcc
 CXXFLAGS = -std=c++11
-LINKING_FLAGS = -lstdc++ -lncurses
+LINKING_FLAGS = -lstdc++ -lncurses -lpthread
 
 OBJECT_FILES_DIST = "./object_files/"
 
